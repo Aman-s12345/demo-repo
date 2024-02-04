@@ -1,6 +1,6 @@
 import React from "react";
 
-const BottomFooter = [{ "id": "Instagram", "link": "https://www.instagram.com/its__aman10/" }, { "id": "Linkdine", "link": "https://www.linkedin.com/in/aman-singh-29055223b/" }, { "id": "Github", "link": "https://github.com/Aman-s12345/" }];
+const BottomFooter = [{ "id": "Instagram", "link": "https://www.instagram.com/its__aman10/" }, { "id": "Linkedin", "link": "https://www.linkedin.com/in/aman-singh-29055223b/" }, { "id": "Github", "link": "https://github.com/Aman-s12345/" }];
 const Footer = () => {
   return (
     <div className="bg-richblack-800 h-20 flex justify-center items-center">
