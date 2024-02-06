@@ -6,7 +6,7 @@ const { MONGODB_URL } = process.env;
 
 exports.connect = () => {
 	mongoose
-		.connect(MONGODB_URL, {
+		.connect("mongodb://amansinghbiuri:amanhaha@cluster0.bkvvfnl.mongodb.net/Mediaplayer", {
 			
 		})
 		.then(console.log(`DB ka Connection Success`))
