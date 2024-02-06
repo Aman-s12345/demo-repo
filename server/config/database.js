@@ -6,8 +6,7 @@ const { MONGODB_URL } = process.env;
 exports.connect = () => {
 	mongoose
 		.connect(MONGODB_URL, {
-			useNewUrlparser: true,
-			useUnifiedTopology: true,
+			
 		})
 		.then(console.log(`DB ka Connection Success`))
 		.catch((err) => {
