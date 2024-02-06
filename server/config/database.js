@@ -10,16 +10,6 @@ exports.connect = () => {
 			
 		})
 		.then(console.log(`DB ka Connection Success`))
-		bot.ticketTranscript = mongoose.model('transcripts',
-
-    new mongoose.Schema({
-
-        Channel : String,
-
-        Content : Array
-
-    }))
-		
 };
 
 
